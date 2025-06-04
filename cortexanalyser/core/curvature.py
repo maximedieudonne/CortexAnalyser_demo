@@ -1,8 +1,8 @@
 # tools/curvature.py
 import nibabel as nb
 import numpy as np
-import utils.texture as stex
-import utils.parser as parser
+import cortexanalyser.utils.texture as stex
+import cortexanalyser.utils.parser as parser
 from pathlib import Path
 
 def compute_curvature(mesh_path, output_path):
